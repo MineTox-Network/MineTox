@@ -1,0 +1,16 @@
+name: TTT
+version: 1.0.0
+api: 1.10.0
+author: MinetoxDev Team
+description: Custom TTT Plugin for Minetox
+main: TTT\TTT
+depend: [MTCore]
+commands:
+ s:
+  description: Opens the TTT shop
+  permission: ttt.shop.buy
+  usage: "/s"
+permissions:
+ ttt.shop.buy:
+  description: Buy things
+  default: false

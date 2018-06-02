@@ -1,0 +1,7 @@
+name: Endergames
+version: 1.0.0
+api: 1.10.0
+author: MinetoxDev Team
+description: Manager
+main: Endergames\Endergames
+depend: [MTCore]

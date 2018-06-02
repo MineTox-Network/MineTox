@@ -1,0 +1,12 @@
+name: KitPvP
+main: kitpvp\KitPvP
+version: 1.0.0
+api: [1.0.0]
+author: Minetox Dev-Team
+description: KitPvP
+depend: [MTCore]
+commands:
+ kit:
+  description: Change kit
+  usage: "/kit"
+  default: true

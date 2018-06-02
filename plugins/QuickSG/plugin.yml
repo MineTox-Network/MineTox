@@ -1,0 +1,7 @@
+name: QuickSG
+version: 1.0.0
+api: 1.10.0
+author: MinetoxDev Team
+description: Minigame
+main: QuickSG\QuickSG
+depend: [MTCore]

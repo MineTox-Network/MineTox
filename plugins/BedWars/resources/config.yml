@@ -1,0 +1,552 @@
+# -------------------------------
+# BedwarsCONFIGURATIONS
+# version v1.53
+# -------------------------------
+# Multi-languages support
+# EN - English 
+# KO - Korean 
+# CN - Chinese
+# JP - Japanese
+# SP - Spanish
+# FR - French
+# RU - Russina
+# BP - Brazil Portuguese
+# .... more
+# ---------------------------
+language: "EN"
+run_selftest_message: "YES"
+# ---------------------------
+# default world lobby location
+# ---------------------------
+enable_spaw_lobby: "yes"
+# ---------------------------
+# added in jan.31.2015
+# enforce block changes in game world
+disable_CTF_world_blockBreak: true
+disable_CTF_world_blockPlace: true
+# ---------------------------
+lobby_world: "bw1"
+lobby_x: "132"
+lobby_y: "34"
+lobby_z: "932"
+#---------------------------
+ctf_game_world: "bw1"
+ctf_game_x: "133"
+ctf_game_y: "32"
+ctf_game_z: "922"
+#---------------------------
+# GAME SETTINGS
+#---------------------------
+maximum_team_players: "4"
+
+#---------------------------
+# waiting room
+#--------------------------- 
+ctf_waiting_room_x: "148"
+ctf_waiting_room_y: "4"
+ctf_waiting_room_z: "183"
+#---------------------------
+# Game status sign 
+#---------------------------
+ctf_status_sign_x: "122"
+ctf_status_sign_y: "5"
+ctf_status_sign_z: "127"
+#---------------------------
+# RED TEAM
+#---------------------------
+ctf_red_team_flag_x: "239"
+ctf_red_team_flag_y: "14"
+ctf_red_team_flag_z: "394"
+#---------------------------
+ctf_red_team_flag2_x: "240"
+ctf_red_team_flag2_y: "14"
+ctf_red_team_flag2_z: "394"
+#---------------------------
+ctf_red_team_join_sign1_x: "131"
+ctf_red_team_join_sign1_y: "36"
+ctf_red_team_join_sign1_z: "944"
+#---------------------------
+ctf_red_team_spawn_x: "237"
+ctf_red_team_spawn_y: "10"
+ctf_red_team_spawn_z: "394"
+
+#---------------------------
+# BLUE TEAM
+#---------------------------
+ctf_blue_team_flag_x: "-21"
+ctf_blue_team_flag_y: "14"
+ctf_blue_team_flag_z: "386"
+#---------------------------
+ctf_blue_team_flag2_x: "-22"
+ctf_blue_team_flag2_y: "14"
+ctf_blue_team_flag2_z: "386"
+#---------------------------
+ctf_blue_team_join_sign1_x: "133"
+ctf_blue_team_join_sign1_y: "36"
+ctf_blue_team_join_sign1_z: "921"
+#---------------------------
+ctf_blue_team_spawn_x: "-19"
+ctf_blue_team_spawn_y: "10"
+ctf_blue_team_spawn_z: "386"
+
+#---------------------------
+# YELLOW TEAM
+#---------------------------
+ctf_yellow_team_flag_x: "105"
+ctf_yellow_team_flag_y: "14"
+ctf_yellow_team_flag_z: "520"
+#---------------------------
+ctf_yellow_team_flag2_x: "105"
+ctf_yellow_team_flag2_y: "14"
+ctf_yellow_team_flag2_z: "521"
+#---------------------------
+ctf_yellow_team_join_sign1_x: "121"
+ctf_yellow_team_join_sign1_y: "36"
+ctf_yellow_team_join_sign1_z: "931"
+#---------------------------
+ctf_yellow_team_spawn_x: "105"
+ctf_yellow_team_spawn_y: "10"
+ctf_yellow_team_spawn_z: "518"
+
+#---------------------------
+# GREEN TEAM
+#---------------------------
+ctf_green_team_flag_x: "113"
+ctf_green_team_flag_y: "14"
+ctf_green_team_flag_z: "260"
+#---------------------------
+ctf_green_team_flag2_x: "113"
+ctf_green_team_flag2_y: "14"
+ctf_green_team_flag2_z: "259"
+#---------------------------
+ctf_green_team_join_sign1_x: "143"
+ctf_green_team_join_sign1_y: "36"
+ctf_green_team_join_sign1_z: "933"
+#---------------------------
+ctf_green_team_spawn_x: "113"
+ctf_green_team_spawn_y: "10"
+ctf_green_team_spawn_z: "262"
+#---------------------------
+#YELLOW SHOP
+#---------------------------
+ctf_shop_yellow_sword1_x: "110"
+ctf_shop_yellow_sword1_y: "10"
+ctf_shop_yellow_sword1_z: "520"
+#
+ctf_shop_yellow_sword2_x: "110"
+ctf_shop_yellow_sword2_y: "10"
+ctf_shop_yellow_sword2_z: "520"
+#
+ctf_shop_yellow_sword3_x: "110"
+ctf_shop_yellow_sword3_y: "10"
+ctf_shop_yellow_sword3_z: "518"
+#
+ctf_shop_yellow_helmet_x: "110"
+ctf_shop_yellow_helmet_y: "11"
+ctf_shop_yellow_helmet_z: "520"
+#
+ctf_shop_yellow_leggings_x: "110"
+ctf_shop_yellow_leggings_y: "11"
+ctf_shop_yellow_leggings_z: "519"
+#
+ctf_shop_yellow_boots_x: "110"
+ctf_shop_yellow_boots_y: "11"
+ctf_shop_yellow_boots_z: "518"
+#
+ctf_shop_yellow_chestplate1_x: "110"
+ctf_shop_yellow_chestplate1_y: "9"
+ctf_shop_yellow_chestplate1_z: "519"
+#
+ctf_shop_yellow_chestplate2_x: ""
+ctf_shop_yellow_chestplate2_y: ""
+ctf_shop_yellow_chestplate2_z: ""
+#
+ctf_shop_yellow_chestplate3_x: "110"
+ctf_shop_yellow_chestplate3_y: "10"
+ctf_shop_yellow_chestplate3_z: "520"
+#
+ctf_shop_yellow_sandstone_x: "110"
+ctf_shop_yellow_sandstone_y: "11"
+ctf_shop_yellow_sandstone_z: "516"
+#
+ctf_shop_yellow_endstone_x: "110"
+ctf_shop_yellow_endstone_y: "11"
+ctf_shop_yellow_endstone_z: "515"
+#
+ctf_shop_yellow_iron_x: "110"
+ctf_shop_yellow_iron_y: "9"
+ctf_shop_yellow_iron_z: "515"
+#
+ctf_shop_yellow_glowstone_x: "107"
+ctf_shop_yellow_glowstone_y: "11"
+ctf_shop_yellow_glowstone_z: "509"
+#
+ctf_shop_yellow_pickaxe1_x: "110"
+ctf_shop_yellow_pickaxe1_y: "11"
+ctf_shop_yellow_pickaxe1_z: "513"
+#
+ctf_shop_yellow_pickaxe2_x: "110"
+ctf_shop_yellow_pickaxe2_y: "11"
+ctf_shop_yellow_pickaxe2_z: "512"
+#
+ctf_shop_yellow_pickaxe3_x: "110"
+ctf_shop_yellow_pickaxe3_y: "11"
+ctf_shop_yellow_pickaxe3_z: "511"
+#
+ctf_shop_yellow_chest_x: "110"
+ctf_shop_yellow_chest_y: "10"
+ctf_shop_yellow_chest_z: "519"
+#
+ctf_shop_yellow_cobweb_x: ""
+ctf_shop_yellow_cobweb_y: ""
+ctf_shop_yellow_cobweb_z: ""
+#
+ctf_shop_yellow_glass_x: "110"
+ctf_shop_yellow_glass_y: "9"
+ctf_shop_yellow_glass_z: "516"
+#
+ctf_shop_yellow_bow1_x: "110"
+ctf_shop_yellow_bow1_y: "10"
+ctf_shop_yellow_bow1_z: "513"
+#
+ctf_shop_yellow_arrow_x: "110"
+ctf_shop_yellow_arrow_y: "10"
+ctf_shop_yellow_arrow_z: "511"
+#
+ctf_shop_yellow_apple_x: "110"
+ctf_shop_yellow_apple_y: "9"
+ctf_shop_yellow_apple_z: "513"
+#
+ctf_shop_yellow_porkchop_x: "110"
+ctf_shop_yellow_porkchop_y: "9"
+ctf_shop_yellow_porkchop_z: "512"
+#
+ctf_shop_yellow_cake_x: "110"
+ctf_shop_yellow_cake_y: "9"
+ctf_shop_yellow_cake_z: "511"
+#
+ctf_shop_yellow_strenght_x: "107"
+ctf_shop_yellow_strenght_y: "9"
+ctf_shop_yellow_strenght_z: "509"
+#
+ctf_shop_yellow_stick_x: "110"
+ctf_shop_yellow_stick_y: "9"
+ctf_shop_yellow_stick_z: "519"
+#---------------------------
+#BLUE SHOP
+#---------------------------
+ctf_shop_blue_sword1_x: "-21"
+ctf_shop_blue_sword1_y: "10"
+ctf_shop_blue_sword1_z: "391"
+#
+ctf_shop_blue_sword2_x: ""
+ctf_shop_blue_sword2_y: ""
+ctf_shop_blue_sword2_z: ""
+#
+ctf_shop_blue_sword3_x: "-19"
+ctf_shop_blue_sword3_y: "10"
+ctf_shop_blue_sword3_z: "391"
+#
+ctf_shop_blue_helmet_x: "-21"
+ctf_shop_blue_helmet_y: "11"
+ctf_shop_blue_helmet_z: "391"
+#
+ctf_shop_blue_leggings_x: "-20"
+ctf_shop_blue_leggings_y: "11"
+ctf_shop_blue_leggings_z: "391"
+#
+ctf_shop_blue_boots_x: "-19"
+ctf_shop_blue_boots_y: "11"
+ctf_shop_blue_boots_z: "391"
+#
+ctf_shop_blue_chestplate1_x: "-21"
+ctf_shop_blue_chestplate1_y: "9"
+ctf_shop_blue_chestplate1_z: "391"
+#
+ctf_shop_blue_chestplate2_x: "-19"
+ctf_shop_blue_chestplate2_y: "9"
+ctf_shop_blue_chestplate2_z: "391"
+#
+ctf_shop_blue_chestplate3_x: ""
+ctf_shop_blue_chestplate3_y: ""
+ctf_shop_blue_chestplate3_z: ""
+#
+ctf_shop_blue_sandstone_x: "-17"
+ctf_shop_blue_sandstone_y: "11"
+ctf_shop_blue_sandstone_z: "391"
+#
+ctf_shop_blue_endstone_x: "-16"
+ctf_shop_blue_endstone_y: "11"
+ctf_shop_blue_endstone_z: "391"
+#
+ctf_shop_blue_iron_x: "-16"
+ctf_shop_blue_iron_y: "19"
+ctf_shop_blue_iron_z: "391"
+#
+ctf_shop_blue_glowstone_x: "-10"
+ctf_shop_blue_glowstone_y: "11"
+ctf_shop_blue_glowstone_z: "388"
+#
+ctf_shop_blue_pickaxe1_x: "-14"
+ctf_shop_blue_pickaxe1_y: "11"
+ctf_shop_blue_pickaxe1_z: "391"
+#
+ctf_shop_blue_pickaxe2_x: "-13"
+ctf_shop_blue_pickaxe2_y: "11"
+ctf_shop_blue_pickaxe2_z: "391"
+#
+ctf_shop_blue_pickaxe3_x: "-12"
+ctf_shop_blue_pickaxe3_y: "11"
+ctf_shop_blue_pickaxe3_z: "391"
+#
+ctf_shop_blue_chest_x: "-20"
+ctf_shop_blue_chest_y: "10"
+ctf_shop_blue_chest_z: "391"
+#
+ctf_shop_blue_cobweb_x: ""
+ctf_shop_blue_cobweb_y: ""
+ctf_shop_blue_cobweb_z: ""
+#
+ctf_shop_blue_glass_x: "-17"
+ctf_shop_blue_glass_y: "9"
+ctf_shop_blue_glass_z: "391"
+#
+ctf_shop_blue_bow1_x: "-14"
+ctf_shop_blue_bow1_y: "10"
+ctf_shop_blue_bow1_z: "391"
+#
+ctf_shop_blue_arrow_x: "-12"
+ctf_shop_blue_arrow_y: "10"
+ctf_shop_blue_arrow_z: "391"
+#
+ctf_shop_blue_apple_x: "-14"
+ctf_shop_blue_apple_y: "9"
+ctf_shop_blue_apple_z: "391"
+#
+ctf_shop_blue_porkchop_x: "-13"
+ctf_shop_blue_porkchop_y: "9"
+ctf_shop_blue_porkchop_z: "391"
+#
+ctf_shop_blue_cake_x: "-12"
+ctf_shop_blue_cake_y: "9"
+ctf_shop_blue_cake_z: "391"
+#
+ctf_shop_blue_strenght_x: "-10"
+ctf_shop_blue_strenght_y: "9"
+ctf_shop_blue_strenght_z: "388"
+#
+ctf_shop_blue_stick_x: "-20"
+ctf_shop_blue_stick_y: "9"
+ctf_shop_blue_stick_z: "391"
+#---------------------------
+#RED SHOP
+#---------------------------
+ctf_shop_red_sword1_x: "239"
+ctf_shop_red_sword1_y: "10"
+ctf_shop_red_sword1_z: "389"
+#
+ctf_shop_red_sword2_x: ""
+ctf_shop_red_sword2_y: ""
+ctf_shop_red_sword2_z: ""
+#
+ctf_shop_red_sword3_x: "237"
+ctf_shop_red_sword3_y: "10"
+ctf_shop_red_sword3_z: "389"
+#
+ctf_shop_red_helmet_x: "239"
+ctf_shop_red_helmet_y: "11"
+ctf_shop_red_helmet_z: "389"
+#
+ctf_shop_red_leggings_x: "238"
+ctf_shop_red_leggings_y: "11"
+ctf_shop_red_leggings_z: "389"
+#
+ctf_shop_red_boots_x: "237"
+ctf_shop_red_boots_y: "11"
+ctf_shop_red_boots_z: "389"
+#
+ctf_shop_red_chestplate1_x: "239"
+ctf_shop_red_chestplate1_y: "9"
+ctf_shop_red_chestplate1_z: "389"
+#
+ctf_shop_red_chestplate2_x: "238"
+ctf_shop_red_chestplate2_y: "9"
+ctf_shop_red_chestplate2_z: "389"
+#
+ctf_shop_red_chestplate3_x: ""
+ctf_shop_red_chestplate3_y: ""
+ctf_shop_red_chestplate3_z: ""
+#
+ctf_shop_red_sandstone_x: "235"
+ctf_shop_red_sandstone_y: "11"
+ctf_shop_red_sandstone_z: "389"
+#
+ctf_shop_red_endstone_x: "234"
+ctf_shop_red_endstone_y: "11"
+ctf_shop_red_endstone_z: "389"
+#
+ctf_shop_red_iron_x: "234"
+ctf_shop_red_iron_y: "9"
+ctf_shop_red_iron_z: "389"
+#
+ctf_shop_red_glowstone_x: "228"
+ctf_shop_red_glowstone_y: "11"
+ctf_shop_red_glowstone_z: "392"
+#
+ctf_shop_red_pickaxe1_x: "232"
+ctf_shop_red_pickaxe1_y: "11"
+ctf_shop_red_pickaxe1_z: "389"
+#
+ctf_shop_red_pickaxe2_x: "231"
+ctf_shop_red_pickaxe2_y: "11"
+ctf_shop_red_pickaxe2_z: "389"
+#
+ctf_shop_red_pickaxe3_x: "230"
+ctf_shop_red_pickaxe3_y: "11"
+ctf_shop_red_pickaxe3_z: "389"
+#
+ctf_shop_red_chest_x: "238"
+ctf_shop_red_chest_y: "10"
+ctf_shop_red_chest_z: "389"
+#
+ctf_shop_red_cobweb_x: ""
+ctf_shop_red_cobweb_y: ""
+ctf_shop_red_cobweb_z: ""
+#
+ctf_shop_red_glass_x: "235"
+ctf_shop_red_glass_y: "9"
+ctf_shop_red_glass_z: "389"
+#
+ctf_shop_red_bow1_x: "232"
+ctf_shop_red_bow1_y: "10"
+ctf_shop_red_bow1_z: "389"
+#
+ctf_shop_red_arrow_x: "230"
+ctf_shop_red_arrow_y: "10"
+ctf_shop_red_arrow_z: "389"
+#
+ctf_shop_red_apple_x: "232"
+ctf_shop_red_apple_y: "9"
+ctf_shop_red_apple_z: "389"
+#
+ctf_shop_red_porkchop_x: "231"
+ctf_shop_red_porkchop_y: "9"
+ctf_shop_red_porkchop_z: "389"
+#
+ctf_shop_red_cake_x: "230"
+ctf_shop_red_cake_y: "9"
+ctf_shop_red_cake_z: "389"
+#
+ctf_shop_red_strenght_x: "228"
+ctf_shop_red_strenght_y: "9"
+ctf_shop_red_strenght_z: "392"
+#
+ctf_shop_red_stick_x: "238"
+ctf_shop_red_stick_y: "9"
+ctf_shop_red_stick_z: "389"
+#---------------------------
+#GREEN SHOP
+#---------------------------
+ctf_shop_green_sword1_x: "108"
+ctf_shop_green_sword1_y: "10"
+ctf_shop_green_sword1_z: "260"
+#
+ctf_shop_green_sword2_x: ""
+ctf_shop_green_sword2_y: ""
+ctf_shop_green_sword2_z: ""
+#
+ctf_shop_green_sword3_x: "108"
+ctf_shop_green_sword3_y: "10"
+ctf_shop_green_sword3_z: "262"
+#
+ctf_shop_green_helmet_x: "108"
+ctf_shop_green_helmet_y: "11"
+ctf_shop_green_helmet_z: "260"
+#
+ctf_shop_green_leggings_x: "108"
+ctf_shop_green_leggings_y: "11"
+ctf_shop_green_leggings_z: "261"
+#
+ctf_shop_green_boots_x: "108"
+ctf_shop_green_boots_y: "11"
+ctf_shop_green_boots_z: "262"
+#
+ctf_shop_green_chestplate1_x: "108"
+ctf_shop_green_chestplate1_y: "9"
+ctf_shop_green_chestplate1_z: "260"
+#
+ctf_shop_green_chestplate2_x: "108"
+ctf_shop_green_chestplate2_y: "9"
+ctf_shop_green_chestplate2_z: "262"
+#
+ctf_shop_green_chestplate3_x: ""
+ctf_shop_green_chestplate3_y: ""
+ctf_shop_green_chestplate3_z: ""
+#
+ctf_shop_green_sandstone_x: "108"
+ctf_shop_green_sandstone_y: "11"
+ctf_shop_green_sandstone_z: "264"
+#
+ctf_shop_green_endstone_x: "108"
+ctf_shop_green_endstone_y: "11"
+ctf_shop_green_endstone_z: "265"
+#
+ctf_shop_green_iron_x: "108"
+ctf_shop_green_iron_y: "9"
+ctf_shop_green_iron_z: "263"
+#
+ctf_shop_green_glowstone_x: "108"
+ctf_shop_green_glowstone_y: "11"
+ctf_shop_green_glowstone_z: "271"
+#
+ctf_shop_green_pickaxe1_x: "108"
+ctf_shop_green_pickaxe1_y: "11"
+ctf_shop_green_pickaxe1_z: "265"
+#
+ctf_shop_green_pickaxe2_x: "108"
+ctf_shop_green_pickaxe2_y: "11"
+ctf_shop_green_pickaxe2_z: "266"
+#
+ctf_shop_green_pickaxe3_x: "108"
+ctf_shop_green_pickaxe3_y: "11"
+ctf_shop_green_pickaxe3_z: "267"
+#
+ctf_shop_green_chest_x: "108"
+ctf_shop_green_chest_y: "10"
+ctf_shop_green_chest_z: "261"
+#
+ctf_shop_green_cobweb_x: ""
+ctf_shop_green_cobweb_y: ""
+ctf_shop_green_cobweb_z: ""
+#
+ctf_shop_green_glass_x: "108"
+ctf_shop_green_glass_y: "9"
+ctf_shop_green_glass_z: "264"
+#
+ctf_shop_green_bow1_x: "108"
+ctf_shop_green_bow1_y: "10"
+ctf_shop_green_bow1_z: "265"
+#
+ctf_shop_green_arrow_x: "108"
+ctf_shop_green_arrow_y: "10"
+ctf_shop_green_arrow_z: "267"
+#
+ctf_shop_green_apple_x: "108"
+ctf_shop_green_apple_y: "9"
+ctf_shop_green_apple_z: "265"
+#
+ctf_shop_green_porkchop_x: "108"
+ctf_shop_green_porkchop_y: "9"
+ctf_shop_green_porkchop_z: "266"
+#
+ctf_shop_green_cake_x: "108"
+ctf_shop_green_cake_y: "9"
+ctf_shop_green_cake_z: "267"
+#
+ctf_shop_green_strenght_x: "111"
+ctf_shop_green_strenght_y: "9"
+ctf_shop_green_strenght_z: "271"
+#
+ctf_shop_green_stick_x: "108"
+ctf_shop_green_stick_y: "9"
+ctf_shop_green_stick_z: "261"

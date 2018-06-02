@@ -1,0 +1,65 @@
+name: Bedwars
+version: 1.5.3
+api: 1.12.0
+main: BedWars\BedWars
+author: TeamMinetox
+description: MiniGames
+depend: [MTCore]
+commands:
+ bw:
+  description: "Start minecraftgenius76 Minigame Capture-The-Flag"
+  permission: bw
+permissions:
+  bw:
+    description: "Bedwars plugin permissions"
+    default: true
+    children:
+      bw.command:
+        description: "Allows use all BW commands."
+        default: true
+        children:
+          bw.command.home:
+            description: "Allow use of [home] command"
+            default: true
+          bw.command.start:
+            description: "Allows use of [start]commands"
+            default: true            
+          bw.command.stop:
+            description: "Allows use of [stop] commands"
+            default: true
+          bw.command.leave:
+            description: "Allows use of [leave] commands" 
+            default: true           
+          bw.command.create:
+            description: "Allows use of [create] commands"            
+            default: op            
+          bw.command.reset:
+            description: "Allows use of [reset] commands"
+            default: op                                    
+          bw.command.stats:
+            description: "Allows use of [stats] commands"                                               
+            default: true 
+          bw.command.joinblue:
+            description: "Allows use of [joinblue] commands."
+            default: true
+          bw.command.blockon:
+            description: "Allows use of [blockon] commands"                                               
+            default: true 
+          bw.command.blockoff:
+            description: "Allows use of [blockoff] commands."
+            default: op			
+          bw.command.joinred:
+            description: "Allows use of [joinred] commands."
+            default: op
+          bw.command.setblue:
+            description: "Allows use of [setsignblue] commands."
+            default: op			
+          bw.command.setred:
+            description: "Allows use of [setsignred] commands."
+            default: op          
+          bw.command.setnew:
+            description: "Allows use of [setsignnew] commands."
+            default: op			
+          bw.command.setstat:
+            description: "Allows use of [setsignstat] commands."
+            default: op                       

@@ -1,0 +1,55 @@
+name: MTCore
+version: 1.0.0
+api: 1.7.0
+author: MinetoxDev Team
+description: Kümmert sich um die Minetox Hub
+main: MTCore\MTCore
+
+commands:
+ hub:
+  default: true
+  description: Bringt dich zurück zur Minetox-Hub
+  aliases: [lobby, l]
+ party:
+  default: true
+  description: Verwaltet eine Party
+ p:
+  default: true
+  description: Unterhalte dich mit deiner Party
+ start:
+  default: true
+  description: Beschleunigt die Lobby Wartezeit
+ nick:
+  default: true
+  description: Ändere deine Identität
+ shop:
+  permission: minetox.command.shop
+  description: Shop Command - Für die Hub und TTT
+  aliases: [buy, b]
+ stats:
+  default: true
+  description: Sehe deine Statistik an
+ getpos:
+  default: true
+  description: Zeigt dir deine Aktuelle Position
+ server:
+  permission: minetox.command.server
+  description: Kontrolliere einen Minigames Server
+ login:
+  permission: minetox.command.login
+  default: true
+ register:
+  default: true
+ notify:
+  default: true
+ serverinfo:
+  default: true
+ join:
+  default: true
+ promote:
+  default: true
+
+ permissions:
+  minetox.command.hub:
+  description: "Bringt dich zurück zur Minetox Hub"
+  default: true
